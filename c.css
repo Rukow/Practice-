@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #cbcfcd;
+}
+
+.wraper {
+    width: 100%;
+    max-width: 360px; /* Adjust the max-width as needed */
+    background: #ffff;
+    border-radius: 5px;
+}
+
+.wraper .title {
+    line-height: 80px;
+    background: #16a005;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wraper form {
+    padding: 30px 20px 25px 20px;
+}
+
+.wraper form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wraper form .row input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.wraper form .row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    background: #16a005;
+    border: 1px solid #16a005;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.wraper form .button input {
+    cursor: pointer;
+    padding-left: 0px;
+    background: #16a005;
+    border: 1px solid #16a005;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.wraper form .signup-link {
+    padding-top: 39px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+    text-align: center;
+}
+
+.wraper form .signup-link a {
+    color: #16a005;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.wraper form .signup-link a:hover {
+    text-decoration: underline;
+}
+
+.wraper form .pass {
+    margin: -8px 0 20px 0;
+}
+
+.wraper form .pass a {
+    color: #16a005;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wraper form .pass a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .wraper {
+        max-width: 90%; /* Adjust as needed */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .wraper {
+        max-width: 90%; /* Adjust as needed */
+    }
+}
+ 
+
